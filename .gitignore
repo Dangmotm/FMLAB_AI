@@ -21,3 +21,6 @@ checkpoints/
 *.jpeg
 *.gif
 wandb/
+*.bin
+*.pt
+runs/
