@@ -1,0 +1,250 @@
+{
+    "example_source": [
+        "▁我还",
+        "澄清",
+        "了",
+        "在该",
+        "会议上",
+        "提出的",
+        "若干",
+        "事项",
+        "。"
+    ],
+    "example_target": [
+        "<s>",
+        "▁i",
+        "▁was",
+        "▁able",
+        "▁to",
+        "▁provide",
+        "▁clarification",
+        "▁on",
+        "▁some",
+        "▁of",
+        "▁the",
+        "▁matters",
+        "▁which",
+        "▁were",
+        "▁raised",
+        "▁at",
+        "▁that",
+        "▁meeting",
+        ".",
+        "</s>"
+    ],
+    "hypotheses": [
+        {
+            "hypothesis": [
+                "▁i",
+                "▁look",
+                "▁forward",
+                "▁to",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁questions",
+                "▁in",
+                "▁the",
+                "▁meeting",
+                "▁of",
+                "▁the",
+                "▁meeting",
+                "."
+            ],
+            "score": -19.099716186523438
+        },
+        {
+            "hypothesis": [
+                "▁i",
+                "▁look",
+                "▁forward",
+                "▁to",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁speakers",
+                "▁in",
+                "▁the",
+                "▁meeting",
+                "▁of",
+                "▁the",
+                "▁meeting",
+                "."
+            ],
+            "score": -19.188631057739258
+        },
+        {
+            "hypothesis": [
+                "▁i",
+                "▁look",
+                "▁forward",
+                "▁to",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁issues",
+                "▁in",
+                "▁the",
+                "▁meeting",
+                "▁of",
+                "▁the",
+                "▁meeting",
+                "."
+            ],
+            "score": -19.350574493408203
+        },
+        {
+            "hypothesis": [
+                "▁i",
+                "▁look",
+                "▁forward",
+                "▁to",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁issues",
+                "▁in",
+                "▁the",
+                "▁meeting",
+                "."
+            ],
+            "score": -19.625411987304688
+        },
+        {
+            "hypothesis": [
+                "▁i",
+                "▁look",
+                "▁forward",
+                "▁to",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁questions",
+                "▁in",
+                "▁the",
+                "▁meeting",
+                "."
+            ],
+            "score": -19.801868438720703
+        },
+        {
+            "hypothesis": [
+                "▁i",
+                "▁look",
+                "▁forward",
+                "▁to",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁speakers",
+                "▁in",
+                "▁the",
+                "▁meeting",
+                "."
+            ],
+            "score": -19.954435348510742
+        },
+        {
+            "hypothesis": [
+                "▁i",
+                "▁look",
+                "▁forward",
+                "▁to",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁issues",
+                "▁in",
+                "▁the",
+                "▁meeting",
+                "▁of",
+                "▁the",
+                "▁meeting",
+                "."
+            ],
+            "score": -21.844484329223633
+        },
+        {
+            "hypothesis": [
+                "▁i",
+                "▁look",
+                "▁forward",
+                "▁to",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁speakers",
+                "▁in",
+                "▁the",
+                "▁meeting",
+                "▁of",
+                "▁the",
+                "▁meeting",
+                "▁of",
+                "▁the",
+                "▁meeting",
+                "."
+            ],
+            "score": -22.037254333496094
+        },
+        {
+            "hypothesis": [
+                "▁i",
+                "▁look",
+                "▁forward",
+                "▁to",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁questions",
+                "▁in",
+                "▁the",
+                "▁meeting",
+                "▁of",
+                "▁the",
+                "▁meeting",
+                "."
+            ],
+            "score": -22.09724998474121
+        },
+        {
+            "hypothesis": [
+                "▁i",
+                "▁look",
+                "▁forward",
+                "▁to",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁a",
+                "▁number",
+                "▁of",
+                "▁issues",
+                "▁in",
+                "▁the",
+                "▁meeting",
+                "▁of",
+                "▁the",
+                "▁conference",
+                "."
+            ],
+            "score": -23.535541534423828
+        }
+    ],
+    "diagnostic_info": "eyJ0IjogIjIwMjYtMDEtMTJUMTE6MTQ6MDMuNTc1MjI5IiwgImgiOiAiREFOR0RFTEwiLCAidSI6ICJEQU5HIn0="
+}
