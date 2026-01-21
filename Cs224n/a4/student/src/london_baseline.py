@@ -12,7 +12,24 @@ def main():
 
     # Compute accuracy in the range [0.0, 100.0]
     ### YOUR CODE HERE ###
-    pass
+    
+    predictions = []
+    targets = []
+
+    with open('birth_dev.tsv', 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                # Each line format: "name\tbirthplace"
+                parts = line.split('\t')
+                if len(parts) == 2:
+                    predictions.append('London')
+                    targets.append(parts[1])
+    
+    total, correct = utils.evaluate_places('birth_dev.tsv', predictions)
+    if total > 0:
+        accuracy = correct / total * 100.0
+
     ### END YOUR CODE ###
 
     return accuracy
