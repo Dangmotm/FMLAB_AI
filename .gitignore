@@ -7,12 +7,18 @@ Exercise/Ex14/flickr8k/
 *.ipynb_checkpoints/
 *.pyc
 __pycache__/
+.DS_Store
 venv/
 datasets/
 models/
 checkpoints/
+runs/
+ray_results/
+*.tfevents*
 *.pt
 *.pth
+*.params
+*.predictions
 *.h5
 *.mp4
 *.zip
@@ -22,4 +28,3 @@ checkpoints/
 *.gif
 wandb/
 *.bin
-*.pt

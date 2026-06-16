@@ -83,7 +83,7 @@ def apply_rotary_emb(x, rope_cache):
 
     rotated_complex = x_complex * rope_complex.unsqueeze(0).unsqueeze(0)
 
-    rotated_real = torch.view_as_real(rope_complex)
+    rotated_real = torch.view_as_real(rotated_complex)
 
     rotated_x = rotated_real.flatten(-2)
 
